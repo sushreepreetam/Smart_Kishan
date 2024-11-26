@@ -1,0 +1,65 @@
+/* Navbar.css */
+.cart-icon-container {
+    position: relative;
+  }
+  
+  /* Ensures the CartDropdown is visible on hover */
+  .cart-icon-container:hover .cart-dropdown {
+    display: block;
+  }
+  
+  /* CartDropdown.css */
+  .cart-dropdown {
+    position: absolute;
+    top: 100%;  /* Position right under the cart icon */
+    right: 0;  /* Align to the right */
+    background-color: white;
+    border: 1px solid #ccc;
+    color: dark;
+    width: 300px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;  /* Hidden by default */
+  }
+  
+  .cart-dropdown-content {
+    padding: 15px;
+  }
+  
+  .cart-dropdown-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cart-dropdown-content li {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    border: 3px;
+  }
+  
+  .dropdown-item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .dropdown-item-details {
+    margin-left: 10px;
+  }
+  
+  .dropdown-footer {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .dropdown-footer .btn {
+    width: 100%;
+  }
+  
