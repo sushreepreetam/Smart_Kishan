@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch} from 'react-redux';
 import { addToCart, incrementQuantity, decrementQuantity } from './cartSlice'; // Import increment and decrement actions
 import "./ProductSection.css";
 

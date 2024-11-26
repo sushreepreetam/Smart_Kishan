@@ -65,6 +65,5 @@ const cartSlice = createSlice({
   },
 });
 
-export const { addToCart, removeFromCart, incrementQuantity, decrementQuantity } = cartSlice.actions;{/*Lazy Loading */}
-
-export default cartSlice.reducer;{/*Eager Loading */}
+export const { addToCart, removeFromCart, incrementQuantity, decrementQuantity } = cartSlice.actions;
+export default cartSlice.reducer;
